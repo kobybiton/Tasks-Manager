@@ -1,0 +1,59 @@
+body{
+	background-color: #EDEDED;
+}
+
+th{
+	background-color: #353535;
+	color: #ccc;
+}
+
+.table{
+	background-color: transparent;
+	box-shadow: 5px 5px 5px #B4B4B4;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #000; 
+	margin: auto;
+	width: 80%;
+}
+
+button{
+	border-radius: 5px;
+	padding: 0px 15px;
+	cursor: pointer;
+}
+
+#tasks_status_wrapper{
+	display: flex;	
+	margin-bottom: 50px;
+}
+
+#tasks_completed, #tasks_remaining{
+	margin-left: 210px; 
+	box-shadow: 2px 2px 2px #B4B4B4;
+	border-radius: 5px;
+}
+
+#total_tasks{
+	box-shadow: 2px 2px 2px #B4B4B4;
+	border-radius: 5px;
+}
+
+.left{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 230px;
+    padding-left: 10px;
+}
+
+.right{
+    float: right;
+    background-color: #353535;
+    color: #ccc;
+	width: 40px;
+    text-align: center;	
+}
+
+.modal-body{
+	padding:40px 50px;
+}
